@@ -18,38 +18,38 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    actionmailer (4.2.11)
-      actionpack (= 4.2.11)
-      actionview (= 4.2.11)
-      activejob (= 4.2.11)
+    actionmailer (5.2.2)
+      actionpack (= 5.2.2)
+      actionview (= 5.2.2)
+      activejob (= 5.2.2)
       mail (~> 2.5, >= 2.5.4)
       rails-dom-testing (~> 1.0, >= 1.0.5)
-    actionpack (4.2.11)
-      actionview (= 4.2.11)
-      activesupport (= 4.2.11)
+    actionpack (5.2.2)
+      actionview (= 5.2.2)
+      activesupport (= 5.2.2)
       rack (~> 1.6)
       rack-test (~> 0.6.2)
       rails-dom-testing (~> 1.0, >= 1.0.5)
       rails-html-sanitizer (~> 1.0, >= 1.0.2)
-    actionview (4.2.11)
-      activesupport (= 4.2.11)
+    actionview (5.2.2)
+      activesupport (= 5.2.2)
       builder (~> 3.1)
       erubis (~> 2.7.0)
       rails-dom-testing (~> 1.0, >= 1.0.5)
       rails-html-sanitizer (~> 1.0, >= 1.0.3)
-    activejob (4.2.11)
-      activesupport (= 4.2.11)
+    activejob (5.2.2)
+      activesupport (= 5.2.2)
       globalid (>= 0.3.0)
-    activemodel (4.2.11)
-      activesupport (= 4.2.11)
+    activemodel (5.2.2)
+      activesupport (= 5.2.2)
       builder (~> 3.1)
-    activerecord (4.2.11)
-      activemodel (= 4.2.11)
-      activesupport (= 4.2.11)
+    activerecord (5.2.2)
+      activemodel (= 5.2.2)
+      activesupport (= 5.2.2)
       arel (~> 6.0)
     activerecord-nulldb-adapter (0.3.5)
       activerecord (>= 2.0.0)
-    activesupport (4.2.11)
+    activesupport ()
       i18n (~> 0.7)
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
@@ -397,16 +397,16 @@ GEM
     rack (1.6.12)
     rack-test (0.6.3)
       rack (>= 1.0)
-    rails (4.2.11)
-      actionmailer (= 4.2.11)
-      actionpack (= 4.2.11)
-      actionview (= 4.2.11)
-      activejob (= 4.2.11)
-      activemodel (= 4.2.11)
-      activerecord (= 4.2.11)
-      activesupport (= 4.2.11)
+    rails (5.2.2)
+      actionmailer (= 5.2.2)
+      actionpack (= 5.2.2)
+      actionview (= 5.2.2)
+      activejob (= 5.2.2)
+      activemodel (= 5.2.2)
+      activerecord (= 5.2.2)
+      activesupport (= 5.2.2)
       bundler (>= 1.3.0, < 2.0)
-      railties (= 4.2.11)
+      railties (= 5.2.2)
       sprockets-rails
     rails-deprecated_sanitizer (1.0.3)
       activesupport (>= 4.2.0.alpha)
@@ -428,9 +428,9 @@ GEM
       rails_stdout_logging
     rails_serve_static_assets (0.0.5)
     rails_stdout_logging (0.0.5)
-    railties (4.2.11)
-      actionpack (= 4.2.11)
-      activesupport (= 4.2.11)
+    railties (5.2.2)
+      actionpack (= 5.2.2)
+      activesupport (= 5.2.2)
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
     raindrops (0.17.0)
@@ -734,7 +734,7 @@ DEPENDENCIES
   puma
   pundit
   rack (>= 1.6.11)
-  rails (~> 4.2.11)
+  rails (~> 5.2.2)
   rails-erd
   rails-html-sanitizer (~> 1.0.4)
   rails-observers
@@ -776,7 +776,7 @@ DEPENDENCIES
   zonebie
 
 RUBY VERSION
-   ruby 2.4.4p296
+   ruby 2.5.5p157
 
 BUNDLED WITH
    1.17.3
