@@ -189,7 +189,7 @@ services:
       context: ./services/catarse
       dockerfile: dev.Dockerfile
     environment:
-      RAILS_ENV: development
+      RAILS_ENV: production
       DATABASE_URL: postgres://catarse:example@localhostcatarse:5432/catarse_db
       REDIS_URL: redis://catarse_redis:6379
     command: ["bundle", "exec", "rake", "db:migrate"]
@@ -212,7 +212,7 @@ services:
       context: ./services/catarse
       dockerfile: dev.Dockerfile
     environment:
-      RAILS_ENV: development
+      RAILS_ENV: production
       DATABASE_URL: postgres://catarse:example@localhostcatarse:5432/catarse_db
       REDIS_URL: redis://catarse_redis:6379
     command: ["bundle", "exec", "rails", "server", "-b", "0.0.0.0"]
